@@ -1,0 +1,14 @@
+# Игнорирование служебных файлов ОС
+.DS_Store
+Thumbs.db
+
+# Игнорирование логов и зависимостей
+npm-debug.log*
+node_modules/
+
+# Дополнительно для macOS
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
